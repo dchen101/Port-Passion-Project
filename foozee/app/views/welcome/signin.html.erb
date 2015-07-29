@@ -1,0 +1,12 @@
+<p>Let's sign in</p>
+<div class="container">
+
+  <h1>Sign In</h1>
+
+  <% if @error %>
+    <div class="errors"><%= @error %></div>
+  <% end %>
+
+  <%= render 'sign_in' %>
+
+</div>
